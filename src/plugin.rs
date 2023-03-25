@@ -1,6 +1,7 @@
 use bevy::prelude::*;
 
 use crate::systems::apply_decode;
+
 pub struct VideoPlugin;
 
 impl Plugin for VideoPlugin {
