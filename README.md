@@ -2,6 +2,8 @@
 
 Stream or play video in your Bevy app!
 
+Currently supports: Bevy 0.10.0
+
 ```rust
 use bevy::prelude::*;
 use bevy_video::prelude::*;
