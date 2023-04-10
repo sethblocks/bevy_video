@@ -7,7 +7,7 @@ name = "bevy_video_playing"
 readme = "README.md"
 repository = "https://github.com/sethblocks/bevy_video"
 version = "0.10.0"
-keywords = ["game", "gamedev", "video", "bevy", "2d", "cutscene"]
+keywords = ["game", "gamedev", "video", "bevy", "cutscene"]
 exclude = ["examples"]#no working examples at the moment 
 
 [workspace]
