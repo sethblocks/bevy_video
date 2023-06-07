@@ -6,4 +6,4 @@ version = "0.1.0"
 
 [dependencies]
 bevy = "0.10"
-bevy_video = {path = "../.."}
+bevy_video = {path = "F:/Glitchy-Box-Game/bevy_video"}

@@ -33,24 +33,13 @@ fn setup(
 
     // plane
     commands.spawn(PbrBundle {
-        mesh: meshes.add(Mesh::from(shape::Plane { size: 5.0 })),
+        mesh: meshes.add(Mesh::from(shape::Plane { size: 5.0, subdivisions: 2 })),
         material: materials.add(StandardMaterial {
             base_color_texture: Some(image_handle.clone()),
             ..default()
         }),
         ..default()
     });
-
-    // // cube
-    // commands.spawn(PbrBundle {
-    //     mesh: meshes.add(Mesh::from(shape::Cube { size: 1.0 })),
-    //     material: materials.add(StandardMaterial {
-    //         base_color_texture: Some(image_handle),
-    //         ..default()
-    //     }),
-    //     transform: Transform::from_xyz(0.0, 0.5, 0.0),
-    //     ..default()
-    // });
 
     // light
     commands.spawn(PointLightBundle {
