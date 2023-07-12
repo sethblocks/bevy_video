@@ -1,13 +1,14 @@
 # Bevy Video
 
 Stream or play video in your Bevy app!
-Now supports bevy 0.10
 
-Currently supports: Bevy 0.10.0
+Currently supports: Bevy 0.11.0
+Original Crate: https://crates.io/crates/bevy_video
+
 
 ```rust
 use bevy::prelude::*;
-use bevy_video::prelude::*;
+use bevy_video_playing::prelude::*;
 
 fn main() {
     App::new()

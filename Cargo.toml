@@ -6,7 +6,7 @@ license = "MIT"
 name = "bevy_video_playing"
 readme = "README.md"
 repository = "https://github.com/sethblocks/bevy_video"
-version = "0.10.0"
+version = "0.11.0"
 keywords = ["game", "gamedev", "video", "bevy", "cutscene"]
 exclude = ["examples"]#no working examples at the moment 
 
@@ -21,4 +21,4 @@ serde = "1.0"
 [dependencies.bevy]
 default-features = false
 features = ["bevy_asset", "bevy_render"]
-version = "0.10"
+version = "0.11"
