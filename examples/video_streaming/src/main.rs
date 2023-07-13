@@ -1,5 +1,5 @@
 use bevy::prelude::*;
-use bevy_video::{nal_units, prelude::*};
+use bevy_video_playing::{nal_units, prelude::*};
 
 #[derive(Resource)]
 struct NalUnits(usize, Vec<Vec<u8>>);
